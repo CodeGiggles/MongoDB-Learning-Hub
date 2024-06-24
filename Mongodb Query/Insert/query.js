@@ -1,5 +1,5 @@
 // insert one 
-db.collection_posts.insertOne({
+db.posts.insertOne({
   title: "Post Title 1",
   body: "Body of post.",
   category: "News",
@@ -9,7 +9,7 @@ db.collection_posts.insertOne({
 })
 
 //insert many
-db.collection_posts.insertMany([  
+db.posts.insertMany([  
   {
     title: "Post Title 2",
     body: "Body of post.",
